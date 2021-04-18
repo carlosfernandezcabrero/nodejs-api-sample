@@ -1,6 +1,6 @@
 const mysql = require('mysql')
-const errorHandler = require('./../handlers/error_handler')
 const config = require('./../config/index')
+const log = require('../loaders/logger')
 
 const connection = mysql.createConnection({
     host: config.DB_HOST,
@@ -11,7 +11,7 @@ const connection = mysql.createConnection({
 
 connection.connect((err) => {
     if (err) {
-        errorHandler(err)
+        log.logger.error(err)
     }
 })
 
