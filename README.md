@@ -38,7 +38,6 @@ Cors is enabled for all requests.
   * lint-staged
 * Test
   * jest
-  * chai
   * sinon
 
 ## Routes
@@ -46,4 +45,3 @@ Cors is enabled for all requests.
 * Soldiers
   * /soldiers: returns all soldiers in the repository.
   * /soldiers/id: returns the soldier with the id received by parameter.
-
