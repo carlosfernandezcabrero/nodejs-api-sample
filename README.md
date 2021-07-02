@@ -1,4 +1,4 @@
-# goodgame-empire-api
+# Goodgame Empire API
 
 API for expose data storage in database and consume in other future application.
 
